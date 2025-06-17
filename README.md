@@ -7,14 +7,12 @@ A sleek, modern portfolio website built using **React.js** to showcase projects,
 ### 🚀 Live Demo
 
 [🔗 View the Website](https://your-portfolio-link.com)
-*(Replace with your actual deployed link)*
 
 ---
 
 ### 🖼️ Preview
 
 ![Portfolio Preview](preview.png)
-*You can include a screenshot or a GIF of your site here.*
 
 ---
 
@@ -112,7 +110,7 @@ You can easily deploy this portfolio using:
 
 ### 🙌 Acknowledgments
 
-This project is built and maintained by **\[Your Name]**
+This project is built and maintained by me.
 Want to collaborate or have feedback? Feel free to connect via [LinkedIn](https://linkedin.com/in/yourprofile) or [email](mailto:youremail@example.com)!
 
 ---
