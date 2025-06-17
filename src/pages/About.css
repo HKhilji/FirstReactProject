@@ -1,0 +1,40 @@
+.about-page h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    transition: transform 0.2s, background 0.3s, color 0.3s;
+}
+
+.light .about-section {
+    background-color: #f3f3f3;
+    color: #1e1e1e;
+}
+
+.dark .about-section {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+
+.about-section:hover {
+    transform: scale(1.01);
+}
+
+.about-section img {
+    border-radius: 10px;
+    margin: 1.5rem;
+    flex-shrink: 0;
+}
+
+.about-section h5 {
+    font-size: 1rem;
+    line-height: 1.6;
+}

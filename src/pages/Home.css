@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #444;
+    margin-bottom: 1rem;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    columns: #fff;
+}
+
+.home h2 {
+    font-size: 1.2rem;
+    columns: #ccc;
+    margin-bottom: 1rem;
+}
+
+.home p {
+    max-width: 300px;
+    color: #bbb;
+    margin-bottom: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 2rem;
+}
+
+.social-icons a {
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
