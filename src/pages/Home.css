@@ -6,9 +6,29 @@
     padding: 3rem 1rem;
 }
 
+@media (max-width: 600px) {
+    .page {
+        padding: 1rem 0.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+.social-icons {
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
 .profile-pic {
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #444;

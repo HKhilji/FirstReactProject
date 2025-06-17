@@ -16,12 +16,15 @@ function About({ mode }) {
             <br></br>
 
             <div className="about-section">
-            <h5>
-                I'm a fanatic of PC Components, always keeping up with the latest trends and topics and often dabbling in assembling PCs myself.
-                </h5>
+                
+                <img src="https://media.istockphoto.com/id/1441217865/photo/gaming-pc-with-rainbow-led-light-liquid-cooled-computer-powerful-pc-in-a-glass-case-with.jpg?s=612x612&w=0&k=20&c=JlpoWN7YGaWgdCEwPU6dt8UITfSI-Xs2uwRzLhzKTXk=" width={450} height={300} alt="(not my Gaming PC)"></img>
+
                 <br></br>
 
-                <img src="https://media.istockphoto.com/id/1441217865/photo/gaming-pc-with-rainbow-led-light-liquid-cooled-computer-powerful-pc-in-a-glass-case-with.jpg?s=612x612&w=0&k=20&c=JlpoWN7YGaWgdCEwPU6dt8UITfSI-Xs2uwRzLhzKTXk=" width={450} height={300} alt="(not my Gaming PC)"></img>
+                <h5>
+                I'm a fanatic of PC Components, always keeping up with the latest trends and topics and often dabbling in assembling PCs myself.
+                </h5>
+                
             </div>
         
         </div>

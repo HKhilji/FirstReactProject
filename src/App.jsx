@@ -32,6 +32,7 @@ function App() {
 
 function Navbar({darkMode, toggleDarkMode}) {
   const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
 
   const links = [
     { name: "Home", path: "/" },
@@ -40,19 +41,32 @@ function Navbar({darkMode, toggleDarkMode}) {
     { name: "Contact", path: "/contact" },
   ];
 
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <nav className = "navbar">
-      <div className="nav-links">
-        {links.map(link => 
-          <div key={link.path} className="nav-link-wrapper">
+      <div className="hamburger" onClick={toggleMenu}>
+        <div className={`bar ${isOpen ? "open" : ""}`}/>
+        <div className={`bar ${isOpen ? "open" : ""}`}/>
+        <div className={`bar ${isOpen ? "open" : ""}`}/>
+      </div>
+
+      <div className={`nav-links ${isOpen ? "open" : ""}`}>
+        {links.map((link) => (
+          <div key={link.path} className="nav-link-wrapper" onClick={closeMenu}>
             <Link to={link.path} className="nav-link">
               {link.name}
               {location.pathname === link.path && (
-                <motion.div className="nav-indicator" layoutId="nav-indicator" transition={{type: "spring", stiffness: 500, damping: 30 }} />
+                <motion.div
+                  className="nav-indicator"
+                  layoutId="nav-indicator"
+                  transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                />
               )}
             </Link>          
           </div>
-        )}
+        ))}
       </div>
 
       <button className="toggle-btn" onClick={toggleDarkMode}>
