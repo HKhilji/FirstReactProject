@@ -5,7 +5,7 @@ import './Home.css';
 function Home({ mode }) {
   return (
     <div className={`page ${mode}`}>  
-    <img src={'/profile.jpg'} alt="Profile" className="profile-pic" />      
+    <img src={'/profile.JPG'} alt="Profile" className="profile-pic" />      
       <h1>Huzaifa Ahmed Khilji</h1>
       <h2>Developer & Tech Enthusiast</h2>
       <br></br>
