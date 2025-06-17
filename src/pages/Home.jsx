@@ -1,12 +1,11 @@
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import profilePic from '../assets/profile.jpg'; // adjust path accordingly
 
 import './Home.css';
 
 function Home({ mode }) {
   return (
     <div className={`page ${mode}`}>  
-    <img src={profilePic} alt="Profile" className="profile-pic" />      
+    <img src={'/profile.jpg'} alt="Profile" className="profile-pic" />      
       <h1>Huzaifa Ahmed Khilji</h1>
       <h2>Developer & Tech Enthusiast</h2>
       <br></br>
